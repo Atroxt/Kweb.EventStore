@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K.EventStore", "src\Kweb.EventStore\K.EventStore.csproj", "{274C905B-4DE1-4324-8D3A-2BF4F21D5A45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K.EventStore", "src\Kweb.EventStore\K.EventStore.csproj", "{274C905B-4DE1-4324-8D3A-2BF4F21D5A45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K.EventStore.Tests", "src\Kweb.EventStore.Tests\K.EventStore.Tests.csproj", "{7867E1B9-31A7-4258-BDD6-264C65D2CE67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K.EventStore.Tests", "src\Kweb.EventStore.Tests\K.EventStore.Tests.csproj", "{7867E1B9-31A7-4258-BDD6-264C65D2CE67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K.EventStore.SqlServer", "src\Kweb.EventStore.SqlServer\K.EventStore.SqlServer.csproj", "{F905ED6F-0A97-4403-83AE-DC95D9998005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K.EventStore.SqlServer", "src\Kweb.EventStore.SqlServer\K.EventStore.SqlServer.csproj", "{F905ED6F-0A97-4403-83AE-DC95D9998005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K.EventStore.SqlServer.Tests", "src\K.EventStore.SqlServer.Tests\K.EventStore.SqlServer.Tests.csproj", "{4A90778B-BB4B-4879-B8CE-C37B0AC39811}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F905ED6F-0A97-4403-83AE-DC95D9998005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F905ED6F-0A97-4403-83AE-DC95D9998005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F905ED6F-0A97-4403-83AE-DC95D9998005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A90778B-BB4B-4879-B8CE-C37B0AC39811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A90778B-BB4B-4879-B8CE-C37B0AC39811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A90778B-BB4B-4879-B8CE-C37B0AC39811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A90778B-BB4B-4879-B8CE-C37B0AC39811}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
